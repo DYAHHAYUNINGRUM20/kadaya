@@ -1,0 +1,22 @@
+# =======================================================
+# KADAYA - Environment Variables Configuration
+# =======================================================
+
+# Port server
+PORT=4000
+NODE_ENV=development
+
+# Database PostgreSQL
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/kadaya
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=DYAH20
+DB_NAME=kadaya
+
+# Keamanan JWT
+JWT_SECRET=kadaya_rahasia_super_aman_sdgs5_pkk_kapasmadya_2026
+JWT_EXPIRES_IN=7d
+
+# URL Frontend untuk CORS
+CLIENT_URL=http://localhost:5173
